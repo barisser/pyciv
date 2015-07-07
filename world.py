@@ -1,8 +1,10 @@
 import city
 import commodity
+import constants
 import land
-import util
+import population
 import random
+import util
 
 class World:
     def __init__(self, mapx, mapy):
@@ -38,8 +40,8 @@ class World:
         for i in range(0, n):
             p = self.random_map_point()
 
-
-            commodities = []
+            random_population = population.Population(1311, 3)
+            commodities = [100] * len(self.commodities)
             name = str(i) + "-city"
-            new_city = city.City(name, p[0], p[1], population, commodities)
+            new_city = city.City(name, p[0], p[1], random_population, commodities)
             self.cities.append(new_city)

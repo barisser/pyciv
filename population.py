@@ -1,6 +1,7 @@
 import math
 import random
 
+
 class Population:
     def __init__(self, n, per_capita_money):
         self.n = n

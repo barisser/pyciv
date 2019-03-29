@@ -1,6 +1,7 @@
 import commodity
 import random
 
+
 class Land:
     def __init__(self, x, y, terrain_index, resources):
         self.x = x

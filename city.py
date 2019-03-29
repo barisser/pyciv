@@ -2,6 +2,7 @@ import commodity
 import constants
 import economics
 
+
 class City:
     def __init__(self, name, x, y, population, commodities):
         self.name = name

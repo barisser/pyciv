@@ -6,6 +6,7 @@ import population
 import random
 import util
 
+
 class World:
     def __init__(self, mapx, mapy):
         self.mapx = mapx
